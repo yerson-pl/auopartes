@@ -1,0 +1,35 @@
+
+.main-header {
+    .l-container{
+        width: 100%
+    }
+}
+
+.logo {
+    width: 80%;
+}
+h1 {
+    color: $black;
+}
+.menu {
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style: none;
+    background: $black;
+    display: flex;
+    
+    li {
+        flex: auto;
+        text-align: center;
+    }
+
+    a {
+        color: $white;
+        text-decoration: none;
+        line-height: 3;
+        &:hover{
+            background: rgba(#000,.2)
+        }
+    }
+}
